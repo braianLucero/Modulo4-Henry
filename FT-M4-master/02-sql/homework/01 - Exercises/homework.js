@@ -9,7 +9,7 @@ const ejercicio04 = "select * from movies where title like ('%til%')";
 const ejercicio05 = "select * from movies where cardinality(actors)=1";
 
 const ejercicio06 =
-  "select title , AVG(rating) from movies, unnest(ratings)rating group by title";
+  "SELECT TITLE, AVG(rating) from movies, unnest(ratings)rating group by title";
 
 const ejercicio07 =
   "SELECT * FROM movies WHERE title LIKE '%Fast and%' AND year = 2016";
