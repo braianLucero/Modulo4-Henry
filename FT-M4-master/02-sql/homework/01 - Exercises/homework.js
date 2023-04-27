@@ -1,12 +1,12 @@
 /* ¡Escribe tus comandos en este archivo! */
 
-const ejercicio02 = "select *  from  movies where duration < 90 ";
+const ejercicio02 = "SELECT * FROM    movies where duration < 90 ";
 
-const ejercicio03 = "select * from movies where year between 1930 and 1940";
+const ejercicio03 = "SELECT * FROM  movies where year between 1930 and 1940";
 
-const ejercicio04 = "select * from movies where title like ('%til%')";
+const ejercicio04 = "SELECT * FROM  movies where title like ('%til%')";
 
-const ejercicio05 = "select * from movies where cardinality(actors)=1";
+const ejercicio05 = "SELECT * FROM  movies where cardinality(actors)=1";
 
 const ejercicio06 =
   "SELECT TITLE, AVG(rating) from movies, unnest(ratings)rating group by title";
