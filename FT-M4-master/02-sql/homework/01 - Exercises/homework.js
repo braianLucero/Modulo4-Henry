@@ -1,6 +1,6 @@
 /* ¡Escribe tus comandos en este archivo! */
 
-const ejercicio02 = "SELECT * FROM    movies where duration < 90 ";
+const ejercicio02 = "SELECT * FROM    MOvies where duration < 90 ";
 
 const ejercicio03 = "SELECT * FROM  MOVIES where year between 1930 and 1940";
 
