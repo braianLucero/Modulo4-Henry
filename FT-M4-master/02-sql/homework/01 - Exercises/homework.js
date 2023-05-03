@@ -12,7 +12,7 @@ const ejercicio06 =
   "SELECT TITLE, AVG(rating) from movies, unnest(ratings)rating group by title";
 
 const ejercicio07 =
-  "SELECT * FROM movies WHERE title LIKE '%Fast and%' AND year = 2016";
+  "SELECT * FROM MOVIES WHERE title LIKE '%Fast and%' AND year = 2016";
 
 module.exports = {
   ejercicio02,
