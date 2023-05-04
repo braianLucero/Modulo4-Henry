@@ -6,7 +6,7 @@ const ejercicio03 = "SELECT * FROM  MOVIES where year between 1930 and 1940";
 
 const ejercicio04 = "SELECT * FROM  MOVIES where title like ('%til%')";
 
-const ejercicio05 = "SELECT * FROM  MOVIES where cardinality(actors)=1";
+const ejercicio05 = "SELECT * FROM  MOVIES WHERE cardinality(actors)=1";
 
 const ejercicio06 =
   "SELECT TITLE, AVG(rating) from movies, unnest(ratings)rating group by title";
